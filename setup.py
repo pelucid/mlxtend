@@ -8,7 +8,6 @@ from os.path import realpath, dirname, join
 from setuptools import setup, find_packages
 import mlxtend
 
-VERSION = mlxtend.__version__
 PROJECT_ROOT = dirname(realpath(__file__))
 
 REQUIREMENTS_FILE = join(PROJECT_ROOT, 'requirements.txt')
@@ -19,8 +18,8 @@ with open(REQUIREMENTS_FILE) as f:
 install_reqs.append('setuptools')
 
 
-setup(name='mlxtend',
-      version=VERSION,
+setup(name='gi_mlxtend',
+      version='0.17.3',
       description='Machine Learning Library Extensions',
       author='Sebastian Raschka',
       author_email='mail@sebastianraschka.com',
