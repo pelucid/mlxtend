@@ -13,3 +13,6 @@ clean: venv
 deps: venv
 	pip install -U pip==18.1
 	pip install -Ue . --process-dependency-links
+
+test:
+	python setup.py test
