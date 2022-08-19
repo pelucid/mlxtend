@@ -6,18 +6,19 @@ requirements = [
           'joblib>=0.13.2',
           'dlib>=19.24.0',
           'imageio==2.14.1',
+          'scikit-learn~=0.23.1',
 ]
 
 py36_requirements = [
-       'scikit-learn==0.20.3',
+       #'scikit-learn~=0.23.1',
        'numpy<1.20', # last version supported by python 3.6  
        'pandas~=0.23.0',
-       'scipy~=1.1.0',
-       'scikit-image==0.15.0',
+       'scipy~=1.5.0',
+       'scikit-image==0.17.2',
 ]
 
 py39_requirements = [
-       'scikit-learn==1.1.1',
+       #'scikit-learn~=1.1.1',
        'numpy==1.23.0', # require a version which is compatible with py3.9 and is > 1.20 due to API changes  
        'pandas~=1.4.3',
        'scipy~=1.9.0',
