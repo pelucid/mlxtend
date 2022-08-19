@@ -3,16 +3,16 @@ import sys
 
 requirements = [
           'matplotlib>=3.0.0',
-          'joblib>=0.13.2',
+          'joblib==0.13.1',
           'dlib>=19.24.0',
           'imageio==2.14.1',
 ]
 
 py36_requirements = [
-          'scipy~=1.1.0',
-          'numpy>=1.16.2',
-          'pandas>=0.24.2',
-          'scikit-learn>=0.20.3',   
+          'scipy==1.2.1',
+          'numpy==1.16.2',
+          'pandas==0.24.2',
+          'scikit-learn==0.20.3',   
     #   'scikit-learn==0.20.3',
     #   'numpy<1.20', # last version supported by python 3.6  
     #   'pandas~=0.23.0',
