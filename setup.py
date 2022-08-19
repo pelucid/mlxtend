@@ -4,8 +4,8 @@ import sys
 requirements = [
           'matplotlib>=3.0.0',
           'joblib>=1.0.0',
-          'dlib>=19.24.0',
-          'imageio==2.14.1',
+          #'dlib>=19.24.0',
+          #'imageio==2.14.1',
 ]
 
 py36_requirements = [
@@ -13,7 +13,7 @@ py36_requirements = [
            'numpy<1.20', # last version supported by python 3.6  
            'pandas~=0.23.0',
            'scipy~=1.1.0',
-           'scikit-image==0.17.2',
+           #'scikit-image==0.17.2',
 ]
 
 py39_requirements = [
@@ -21,7 +21,7 @@ py39_requirements = [
        'numpy==1.23.0', # require a version which is compatible with py3.9 and is > 1.20 due to API changes  
        'pandas~=1.4.3',
        'scipy~=1.9.0',
-       'scikit-image~=0.19.3',
+       #'scikit-image~=0.19.3',
 ]
 
 if sys.version_info[0] == 3 and sys.version_info[1] == 6:
