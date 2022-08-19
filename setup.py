@@ -6,6 +6,7 @@ requirements = [
           'joblib>=0.13.2',
           'dlib>=19.24.0',
           'imageio==2.14.1',
+          'skimage==0.15.0',
 ]
 
 py36_requirements = [
