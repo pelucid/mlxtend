@@ -3,7 +3,7 @@ import sys
 
 requirements = [
           'matplotlib>=3.0.0',
-          'joblib==0.13.1',
+          'joblib>=1.0.0',
           'dlib>=19.24.0',
           'imageio==2.14.1',
 ]
