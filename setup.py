@@ -4,7 +4,8 @@ import sys
 requirements = [
           'matplotlib>=3.0.0',
           'joblib>=0.13.2',
-          'dlib>=19.24.0'
+          'dlib>=19.24.0',
+          'imageio==2.14.1',
 ]
 
 py36_requirements = [
