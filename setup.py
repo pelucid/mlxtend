@@ -12,7 +12,7 @@ py36_requirements = [
            'scikit-learn>=0.20.3',
            'numpy<1.20', # last version supported by python 3.6  
            'pandas~=0.23.0',
-           'scipy~=1.5.0',
+           'scipy~=1.1.0',
            'scikit-image==0.17.2',
 ]
 
