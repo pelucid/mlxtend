@@ -14,7 +14,7 @@ py36_requirements = [
 ]
 
 py39_requirements = [
-       'scikit-learn==1.1.1',
+       'scikit-learn==0.24.2',
        'numpy==1.23.0', # require a version which is compatible with py3.9 and is > 1.20 due to API changes  
        'pandas~=1.4.3',
        'scipy~=1.9.0',
