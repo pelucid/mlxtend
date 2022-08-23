@@ -11,6 +11,7 @@ clean: venv
 	find . -name "*.pyc" -delete
 
 deps: venv
-	pip install -U pip==18.1
-	pip install -Ue . --process-dependency-links
+	pip install -Ue .
 
+test: venv
+	python setup.py pytest --addopts="--cov=mlxtend --cov-report term-missing --cov-report html --cov-branch"
